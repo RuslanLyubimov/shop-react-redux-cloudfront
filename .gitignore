@@ -24,3 +24,10 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+
+# ignore terraform files
+terraform.tfstate
+terraform.tfstate.backup
+.terraform.lock.hcl
+.terraform
